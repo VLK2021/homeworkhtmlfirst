@@ -1,0 +1,110 @@
+body {
+    margin: 0;
+}
+
+.wrap {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    row-gap: 10px;
+}
+
+.header {
+    width: 100%;
+    height: 100px;
+    background: cornflowerblue;
+}
+
+.conteiner {
+    height: 900px;
+}
+
+.first {
+    width: 40%;
+    height: 99%;
+    display: flex;
+    flex-wrap: wrap;
+    row-gap: 10px;
+}
+
+.hero {
+    height: 40%;
+    background: lightpink;
+}
+
+.sidebar {
+    height: 60%;
+    background: cadetblue;
+}
+
+.second {
+    width: 60%;
+    height: 99%;
+    display: flex;
+    flex-wrap: wrap;
+    row-gap: 10px;
+}
+
+.mein {
+    height: 60%;
+    background: yellow;
+}
+
+p {
+    font-size: 20px;
+}
+
+.extra {
+    height: 40%;
+    background: gray;
+}
+
+.hero, .sidebar, .mein, .extra {
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.conteiner1 {
+    height: 300px;
+}
+
+.related {
+    width: 70%;
+    height: 100%;
+    background: darkolivegreen;
+    box-sizing: border-box;
+}
+
+.related1 {
+    width: 30%;
+    height: 100%;
+    background: bisque;
+}
+
+.footer {
+    width: 100%;
+    height: 130px;
+    background: orange;
+}
+
+.text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    color: white;
+}
+
+.size {
+    width: 100%;
+    display: flex;
+    column-gap: 10px;
+}
+
+.text1 {
+    text-align: center;
+    color: white;
+    font-size: 30px;
+    padding-top: 60px;
+}
+
