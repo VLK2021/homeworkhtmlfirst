@@ -1,0 +1,54 @@
+body {
+    justify-content: center;
+}
+
+.text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    color: white;
+}
+
+.width {
+    width: 1300px;
+}
+
+.color {
+    background: cornflowerblue;
+}
+
+body, .flex {
+    display: flex;
+}
+
+/*-------------------------------------------------------------------------------*/
+.main {
+    height: 1600px;
+    flex-direction: column;
+    row-gap: 15px;
+}
+
+.heder {
+    height: 400px;
+}
+
+.content {
+    height: 300px;
+    column-gap: 15px;
+}
+
+.content_block {
+    width: 430px;
+    height: 300px;
+    background: blue;
+}
+
+.footer {
+    height: 900px;
+}
+
+
+
+
+
