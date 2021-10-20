@@ -1,0 +1,53 @@
+body {
+    justify-content: center;
+}
+
+/*------------------------------------------------------------------------------*/
+.text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    color: white;
+}
+
+body, .flex {
+    display: flex;
+}
+
+.width {
+    width: 1300px;
+}
+
+.size {
+    height: 150px;
+}
+
+/*-------------------------------------------------------------------------------*/
+.mein {
+    flex-direction: column;
+}
+
+.heder {
+    background: blue;
+}
+
+.navigation {
+    height: 100px;
+    background: darkblue;
+}
+
+.content__block1 {
+    width: 900px;
+    height: 700px;
+    background: cornflowerblue;
+}
+
+.content__block2 {
+    width: 400px;
+    background: blueviolet;
+}
+
+.footer {
+    background: skyblue;
+}
