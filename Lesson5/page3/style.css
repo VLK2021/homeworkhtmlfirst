@@ -1,0 +1,55 @@
+body {
+    justify-content: center;
+}
+
+/*----------------------------------------------------*/
+body, .flex {
+    display: flex;
+}
+
+.text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    color: white;
+}
+
+.width {
+    width: 1300px;
+}
+
+.size {
+    height: 150px;
+}
+
+/*----------------------------------------------------------*/
+.main, .content__post {
+    flex-direction: column;
+    row-gap: 10px;
+}
+
+.heder {
+    background: darkgreen;
+}
+
+.content {
+    column-gap: 10px;
+}
+
+.content__menu {
+    width: 300px;
+    background: blueviolet;
+    height: 700px;
+}
+
+.post {
+    width: 1000px;
+    height: 345px;
+    background: greenyellow;
+}
+
+.footer {
+    background: bisque;
+}
+
