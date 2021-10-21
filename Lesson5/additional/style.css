@@ -1,0 +1,354 @@
+body {
+    display: flex;
+    justify-content: center;
+}
+
+/*-----------------------------------------------------------------------*/
+.width {
+    width: 1300px;
+}
+
+.pading {
+    padding: 0 40px 0 40px;
+}
+
+.flex {
+    display: flex;
+}
+
+.flex-direction {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.column-gap {
+    column-gap: 13px;
+}
+
+.bagraund-heder-fon {
+    background: gainsboro;
+}
+
+.bagraund-emblem-block {
+    background: midnightblue;
+}
+
+.bagraund-element {
+    background: cornflowerblue;
+}
+
+.border-radius {
+    border-radius: 10px;
+}
+
+.height {
+    height: 7px;
+}
+
+/*==================================================================*/
+.size {
+    background: cornflowerblue;
+    border-radius: 10px;
+}
+
+.square-smal {
+    width: 250px;
+    height: 250px;
+}
+
+.square-big {
+    width: 300px;
+    height: 300px;
+}
+
+.rectangle-big {
+    width: 500px;
+    height: 200px;
+}
+
+.rectangle-small {
+    width: 300px;
+    height: 150px;
+}
+
+.circle {
+    width: 200px;
+    height: 200px;
+    border-radius: 100px;
+}
+
+/*----------------------heder--------------------------------------------------*/
+.heder {
+    height: 120px;
+    justify-content: space-between;
+    align-items: center;
+    box-sizing: border-box;
+}
+
+.heder__block {
+    width: 200px;
+    height: 50px;
+}
+
+.find {
+    font-size: 30px;
+}
+
+.fas {
+    margin-right: 30px;
+    color: cornflowerblue;
+}
+
+/*------------------------emblem----------------------------------------------*/
+.emblem {
+    background: midnightblue;
+    height: 400px;
+    flex-direction: column;
+    row-gap: 20px;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 60px;
+    box-sizing: border-box;
+}
+
+/*---------------------emblem__block1---------------------------*/
+.height__block1 {
+    height: 15px;
+}
+
+.emblem__block1__first {
+    width: 50px;
+}
+
+.emblem__block1__second {
+    width: 110px;
+}
+
+.emblem__block1__thed {
+    width: 90px;
+}
+
+/*--------------------------emblem__block2-------------------------------*/
+.emblem__block2__first {
+    width: 40px;
+}
+
+.emblem__block2__second {
+    width: 20px;
+}
+
+.emblem__block2__thed {
+    width: 25px;
+}
+
+.emblem__block2__four {
+    width: 20px;
+}
+
+.emblem__block2__five {
+    width: 50px;
+}
+
+.emblem__block2__six {
+    width: 35px;
+}
+
+/*-----------------------emblem__block3-----------------------------*/
+.emblem__block3__first {
+    width: 60px;
+}
+
+.emblem__block3__second {
+    width: 20px;
+}
+
+.emblem__block3__thed {
+    width: 30px;
+}
+
+.emblem__block3__four {
+    width: 40px;
+}
+
+.emblem__block3__five {
+    width: 35px;
+}
+
+.emblem__block3__six {
+    width: 25px;
+}
+
+.emblem__block3__sevent {
+    width: 35px;
+}
+
+.emblem__block3__eight {
+    width: 40px;
+}
+
+/*-----------------emblem__block4----------------------------------------------------*/
+.emblem__block4__first {
+    width: 10px;
+}
+
+.emblem__block4__second {
+    width: 35px;
+}
+
+.emblem__block4__thed {
+    width: 50px;
+}
+
+.emblem__block4__four {
+    width: 40px;
+}
+
+/*----------------------emblem__block5---------------------------------*/
+.emblem__block5 {
+    width: 150px;
+    height: 25px;
+    margin-top: 30px;
+}
+
+/*------------------------content------------------------------------------------*/
+.content {
+    flex-direction: column;
+    row-gap: 20px;
+    justify-content: center;
+    align-items: center;
+}
+
+/*---------------------content__smal-squear--------------------------------------*/
+.content__smal-squear {
+    flex-direction: column;
+    row-gap: 30px;
+    justify-content: center;
+    align-items: center;
+}
+
+/*---------------content__smal-squear__href--------------------------------------------------*/
+.content__smal-squear__href__first__size {
+    height: 10px;
+    margin-top: 100px;
+}
+
+.content__smal-squear__href__first {
+    width: 150px;
+}
+
+.content__smal-squear__href__second {
+    width: 100px;
+}
+
+/*-----------------content__smal-squear__squear-and-href--------------------------------------------*/
+.content__smal-squear__squear-and-href {
+    column-gap: 40px;
+}
+
+.conteiner1 {
+    flex-direction: column;
+    row-gap: 12px;
+    justify-content: center;
+    align-items: center;
+}
+
+.content__smal-squear__href__one {
+    width: 100px;
+}
+
+.content__smal-squear__href__twoo {
+    width: 50px;
+}
+
+/*--------------------content__rectangle-big-and-href---------------------------------------------*/
+.content__rectangle-big-and-href {
+    row-gap: 40px;
+}
+
+.rectangle-big-and-href {
+    row-gap: 20px;
+}
+
+.rectangle-big-and-href__one {
+    flex-direction: column;
+    justify-content: flex-start;
+    row-gap: 20px;
+}
+
+.rectangle-big-and-href__block {
+    flex-direction: column;
+    justify-content: flex-start;
+    row-gap: 20px;
+}
+
+.content__rectangle-big-and-href__one {
+    column-gap: 40px;
+}
+
+.karusel-and-href {
+    row-gap: 40px;
+}
+
+/*------------karusel-and-href----------------------------------*/
+.karusel {
+    justify-content: center;
+    align-items: center;
+    column-gap: 40px;
+}
+
+.fas {
+    font-size: 80px;
+    color: midnightblue;
+}
+
+.fa-caret-left {
+    margin-right: 0;
+}
+
+/*-----------------circle-and-href---------------------------------------------*/
+.circle-and-href {
+    column-gap: 100px;
+    justify-content: center;
+    align-items: center;
+    margin-top: 80px;
+    padding-bottom: 30px;
+    box-sizing: border-box;
+}
+
+/*-----------------footer-----------------------------------------------*/
+.footer {
+    height: 150px;
+    row-gap: 50px;
+}
+
+.squaer_footer {
+    width: 50px;
+    height: 50px;
+}
+
+.footer__squaer, .footer-href {
+    column-gap: 15px;
+}
+
+.fot-href {
+    width: 80px;
+    height: 5px;
+}
+
+/*-------------position-element----------------------------------------------*/
+
+.position-element {
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    column-gap: 35px;
+    background: none;
+    top: 560px;
+    left: 0px;
+}
+
+.element {
+    width: 130px;
+    height: 130px;
+}
