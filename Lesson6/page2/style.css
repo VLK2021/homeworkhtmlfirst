@@ -1,0 +1,358 @@
+:root {
+    --gre: gainsboro;
+    --blu__dark: midnightblue;
+    --aqua: aqua;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.wrap {
+    width: 1200px;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+/*--------------------------------------------------------------------*/
+.flex {
+    display: flex;
+}
+
+.flex-direction {
+    flex-direction: column;
+    row-gap: 10px;
+}
+
+.pading {
+    padding: 0 25px;
+    box-sizing: border-box;
+}
+
+.radius {
+    border-radius: 10px;
+}
+
+.square {
+    width: 200px;
+    height: 200px;
+    background: var(--blu__dark);
+}
+
+.circle {
+    width: 200px;
+    height: 200px;
+    border-radius: 100px;
+    background: var(--gre);
+}
+
+.rectangle {
+    width: 250px;
+    height: 140px;
+    background: var(--blu__dark);
+}
+
+/*---------------------------------------------------------------------*/
+.soc-icons {
+    width: 1200px;
+    background: var(--aqua);
+    height: 40px;
+    justify-content: flex-end;
+    align-items: center;
+    column-gap: 10px;
+    list-style: none;
+}
+
+.soc-icons-link {
+    width: 50px;
+    height: 5px;
+    background: var(--blu__dark);
+}
+
+/*--------------------heder------------------------------------------*/
+.heder {
+    background: var(--gre);
+    height: 70px;
+    justify-content: space-between;
+}
+
+.heder__logo {
+    width: 100px;
+    height: 40px;
+    background: var(--blu__dark);
+    margin-top: 15px;
+}
+
+.heder__nav {
+    align-items: center;
+    column-gap: 10px;
+}
+
+.heder__nav__links > a {
+    text-decoration: none;
+    text-transform: uppercase;
+    color: var(--blu__dark);
+}
+
+.heder__nav__links > a:hover {
+    color: red;
+}
+
+/*---------------------prezentation---------------------------------------------*/
+.prezentation {
+    height: 300px;
+    justify-content: center;
+    align-items: center;
+    row-gap: 60px;
+    background: var(--aqua);
+}
+
+.prezentation h1 {
+    margin-top: 20px;
+    color: var(--blu__dark);
+}
+
+button {
+    width: 200px;
+    height: 40px;
+    background: var(--blu__dark);
+    color: white;
+}
+
+.prezentation p {
+    color: var(--blu__dark);
+}
+
+/*---------------squares------------------------------------------------*/
+.squares {
+    background: var(--gre);
+}
+
+.squares__wrap {
+    justify-content: center;
+    align-items: center;
+    margin: 15px 0 15px 0;
+    border: 2px solid var(--aqua);
+}
+
+.squares__wrap > h2 {
+    color: var(--blu__dark);
+    margin: 15px 0 15px 0;
+}
+
+.squares__wrap__block {
+    justify-content: center;
+    column-gap: 70px;
+    margin: 15px 0 15px 0;
+}
+
+.squares__wrap__block__one {
+    justify-content: center;
+    align-items: center;
+}
+
+.squares__wrap__block h3 {
+    color: var(--blu__dark);
+}
+
+/*---------------------circle----------------------------------------------*/
+.circle-block {
+    background: var(--blu__dark);
+    column-gap: 60px;
+    justify-content: center;
+}
+
+.circle-block-and-text {
+    justify-content: center;
+    align-items: center;
+    margin: 25px 0 25px 0;
+}
+
+.circle-block-and-text > h3 {
+    color: var(--gre);
+}
+
+.circle-block-and-text > h4 {
+    color: var(--gre);
+}
+
+/*------------------------content-blok__bloks----------------------------------------------*/
+
+.content-blok {
+    background: var(--gre);
+    align-items: center;
+}
+
+.content-blok > h2 {
+    color: var(--blu__dark);
+    margin: 25px 0 25px 0;
+}
+
+.content-blok__bloks {
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    column-gap: 70px;
+}
+
+.box {
+    border: 2px solid var(--aqua);
+    border-radius: 10px;
+    align-items: center;
+    margin: 15px 0 15px 0;
+}
+
+.rectangle-element {
+    margin: 10px 10px 0 10px;
+}
+
+.box-links-one {
+    column-gap: 130px;
+}
+
+.box-links-one a {
+    text-decoration: none;
+    color: var(--blu__dark);
+    font-size: 20px;
+}
+
+.box-links-one a:hover {
+    color: red;
+}
+
+.box > h3 {
+    color: var(--blu__dark);
+    justify-content: center;
+}
+
+.box > h4 {
+    color: var(--blu__dark);
+}
+
+.box-footer {
+    width: 100%;
+    border-top: 2px solid var(--aqua);
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.box-footer__rectangle:hover {
+    background: var(--aqua);
+}
+
+.box-footer__rectangle {
+    width: 50px;
+    height: 15px;
+    background: var(--blu__dark);
+    margin: 10px;
+}
+
+.box-footer__square {
+    column-gap: 5px;
+}
+
+.box-footer__square-one {
+    width: 15px;
+    height: 15px;
+    background: var(--blu__dark);
+    margin: 10px;
+}
+
+/*-----------------------content-blok__footer----------------------------------------*/
+.content-blok__footer {
+    justify-content: center;
+    align-items: center;
+    padding: 50px 0 50px 0;
+    box-sizing: border-box;
+}
+
+.content-blok__footer-first {
+    justify-content: flex-start;
+    background: var(--blu__dark);
+    padding: 37px;
+    box-sizing: border-box;
+}
+
+.button-footer {
+    width: 100px;
+    height: 30px;
+    background: var(--aqua);
+    margin-top: 30px;
+}
+
+.content-blok__footer-first > h2 {
+    color: var(--aqua);
+}
+
+.content-blok__footer-first > h3 {
+    color: var(--aqua);
+}
+
+/*--------------------*/
+.content-blok__footer-second {
+    justify-content: flex-start;
+    background: var(--aqua);
+    padding: 37px;
+    box-sizing: border-box;
+}
+
+.button-footer__second {
+    width: 100px;
+    height: 30px;
+    background: var(--blu__dark);
+    margin-top: 30px;
+}
+
+.content-blok__footer-second > h2 {
+    color: var(--blu__dark);
+}
+
+.content-blok__footer-second > h3 {
+    color: var(--blu__dark);
+}
+
+/*-----------------footer-----------------------------------------------*/
+
+.footer {
+    align-items: center;
+    justify-content: center;
+    row-gap: 30px;
+    background: var(--blu__dark);
+}
+
+.footer-blok-sq {
+    column-gap: 30px;
+}
+
+.footer-blok-sq__objekt {
+    width: 25px;
+    height: 25px;
+    border-radius: 3px;
+    background: var(--gre);
+    margin-top: 30px;
+}
+
+.footer__block-one {
+    width: 500px;
+    height: 5px;
+    background: var(--aqua);
+}
+
+.footer__block-hrefs {
+    column-gap: 30px;
+    margin-bottom: 30px;
+}
+
+.href {
+    width: 50px;
+    height: 5px;
+    background: var(--gre);
+}
