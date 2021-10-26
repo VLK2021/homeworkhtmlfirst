@@ -1,0 +1,69 @@
+@media screen and (max-width: 420px) {
+    .header__top__menu {
+        display: none;
+    }
+
+    .header__top__menu__call {
+        display: none;
+    }
+
+    .header__top {
+        width: 100%;
+        justify-content: space-between;
+        align-items: center;
+        padding: 20px;
+        margin-bottom: 35px;
+    }
+
+    .phone-block {
+        display: flex;
+        flex-direction: column;
+        row-gap: 10px;
+    }
+
+    .header__bootum {
+        width: 100%;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .header__bootum > h2 {
+        font-size: 20px;
+        text-align: center;
+    }
+
+    .header__bootum {
+        margin: 10px 0 10px 0;
+    }
+
+    .header__bootum > h1 {
+        font-size: 45px;
+        text-align: center;
+    }
+
+    .header__bootum p::before,
+    .header__bootum p::after {
+        content: '';
+        display: none;
+    }
+
+    .header__bootum > button {
+        margin-top: 50px;
+    }
+
+    .header-absolut {
+        width: 100%;
+        height: 130%;
+        flex-direction: column;
+        row-gap: 10px;
+        align-items: center;
+        top: 500px;
+        left: auto;
+    }
+
+    .header-absolut__block {
+        width: 290px;
+        height: 276px;
+    }
+
+}
