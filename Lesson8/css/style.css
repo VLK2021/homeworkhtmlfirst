@@ -1,0 +1,137 @@
+
+:root {
+    --oren: #FF7400;
+    --wig: #FFFFFF;
+    --gld: #D67E35;
+    --gry: #656363;
+}
+
+.container-fluid {
+    padding: 0;
+}
+
+.heder {
+    background: url("../image/bg.png") no-repeat center/cover;
+    height: 100vh;
+}
+
+.logo {
+    color: var(--oren);
+}
+
+.nav__menu {
+    font-size: 14px;
+}
+
+.nav__menu > img {
+    width: 20px;
+    height: 18px;
+}
+
+.nav__menu__border {
+    background: var(--wig);
+    width: 2px;
+    height: 61px;
+}
+
+.nav__contact__number-end-text > p {
+    width: 154px;
+    height: 38px;
+}
+
+.number > img {
+    width: 23px;
+    height: 23px;
+}
+
+.nav__contact > button {
+    width: 160px;
+    height: 50px;
+    background: var(--oren);
+}
+
+/*------------------------------------------------------------*/
+.heder__heder-botom {
+    margin-right: 580px;
+}
+
+.heder__heder-botom > p {
+    color: var(--gld);
+}
+
+.heder__heder-botom__first {
+    font-size: 50px;
+}
+
+.heder__heder-botom__second {
+    font-size: 80px;
+}
+
+.heder__heder-botom__text {
+    font-size: 18px;
+    column-gap: 10px;
+}
+
+.heder__heder-botom__text::before,
+.heder__heder-botom__text::after {
+    content: '';
+    width: 50px;
+    height: 2px;
+    background: var(--wig);
+}
+
+.heder__heder-botom > button {
+    width: 140px;
+    height: 50px;
+    background: var(--oren);
+}
+
+/*---------------row----------------------------------*/
+.block__shadow__one {
+    width: 200px;
+    height: 5px;
+    background: var(--oren);
+}
+
+.block__shadow {
+    display: none;
+}
+
+/*-------------------------------------------------*/
+.header-absolut {
+    position: absolute;
+    left: 120px;
+    bottom: -280px;
+}
+
+.header-absolut__block {
+    width: 350px;
+    height: 330px;
+    box-shadow: 10px 10px 40px 20px rgba(0, 0, 0, 0.1);
+    background: var(--wig);
+}
+
+.header-absolut__block > img {
+    width: 130px;
+    height: 105px;
+    color: var(--gld);
+}
+
+.header-absolut__block > p {
+    font-size: 26px;
+    color: var(--gry);
+}
+
+.header-absolut__block > p > .color-goldd {
+    color: var(--gld);
+}
+
+.header-absolut__block > p > .color-black {
+    color: black;
+}
+
+/*------------------------------------------*/
+.history {
+    height: 500px;
+    background: var(--wig);
+}

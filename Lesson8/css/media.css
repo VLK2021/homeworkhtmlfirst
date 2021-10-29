@@ -1,0 +1,50 @@
+@media screen and (max-width: 576px) {
+    .logo {
+        margin-top: 40px;
+    }
+
+    .me-4, .nav__menu__border, .number > img, .number__phone, .text-white {
+        display: none;
+    }
+
+    .block__shadow {
+        display: flex;
+    }
+
+    .nav {
+        justify-content: space-around;
+    }
+
+    .heder__heder-botom {
+        margin: 0;
+    }
+
+    .heder__heder-botom__first {
+        font-size: 45px;
+        margin-top: 10px;
+    }
+
+    .heder__heder-botom__second {
+        font-size: 55px;
+        margin-top: 40px;
+    }
+
+    .heder__heder-botom__text {
+        font-size: 20px;
+        column-gap: 10px;
+        margin-top: 30px;
+    }
+
+    .header-absolut {
+        flex-direction: column;
+        row-gap: 10px;
+        margin-bottom: -800px;
+        right: 90px;
+    }
+
+    .header-absolut__block {
+        flex-direction: column;
+    }
+
+
+}
