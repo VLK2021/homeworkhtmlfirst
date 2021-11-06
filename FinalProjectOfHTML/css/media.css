@@ -1,6 +1,8 @@
 @media screen and (max-width: 330px) {
     .wrapper {
-        width: 100%;
+        width: 330px;
+        overflow: hidden;
+        margin: 0;
     }
 
     /*-------------------heder----------------------------------*/
@@ -38,55 +40,642 @@
     }
 
     /*=======================navigation============================*/
-    .navigation {
+    .navigation, .main, .main1, .buttons, .cards, .href, .cards, .button-bootom,
+    .nazva, .href-bottom, .nuvs, .footer {
         width: 100%;
+        padding: 0 15px 0 15px;
+        box-sizing: border-box;
+    }
 
+    /*-------------------------------------------------------------*/
+    .navigation {
+        row-gap: 5px;
+        height: 160px;
+        justify-content: space-around;
     }
 
     .navigation_up {
         width: 100%;
         padding: 0;
+        column-gap: 23px;
+        flex-wrap: wrap;
     }
 
-    .navigation_down {
-        width: 100%;
+    .navigation_up_logo {
+        width: 45%;
+        column-gap: 8px;
+        align-items: center;
     }
 
-    .navigation_up_time, .navigation_up_location, .navigation_down_border, .navigation_down_user {
+    .navigation_up_logo > img {
+        width: 36px;
+        height: 40px;
+    }
+
+    .navigation_up_logo_text > .navigation_up_logo_text1 {
+        width: 54px;
+        font-size: 12px;
+        line-height: 10px;
+    }
+
+    .navigation_up_logo_text > .navigation_up_logo_text2 {
+        width: 91px;
+        font-size: 6px;
+        line-height: 10px;
+    }
+
+    /*---------------------------navigation_up_wathApp-------------------------------*/
+    .navigation_up_wathApp {
+        width: 132px;
+        height: 18px;
+        column-gap: 5px;
+        margin-left: 170px;
+    }
+
+    .navigation_up_wathApp > img {
+        width: 10px;
+        height: 10px;
+    }
+
+    .navigation_second_up_wathApp_text {
+        margin-bottom: 0;
+        font-size: 9px;
+        line-height: 12px;
+    }
+
+    /*------------------------------------------------------*/
+    .navigation_up > .navigation_up_text_shadov {
+        display: flex;
+    }
+
+    .navigation_up_w, .navigation_up_text {
         display: none;
     }
 
+    /*--------------navigation_up_text---------------------------------------*/
+    .navigation_up_text {
+        margin-bottom: 10px;
+    }
 
+    .navigation_up_text_number {
+        font-size: 14px;
+    }
 
+    .navigation_up_text_text {
+        font-size: 10px;
+    }
 
-
-
-
-
-
-
-
-
-
-
-    .navigation_down_input-grup {
+    /*--------------------------------------------------------*/
+    .navigation_down {
         width: 100%;
+        column-gap: 20px;
+        padding: 0;
     }
 
     .navigation_down_catalog {
         width: 34px;
         height: 34px;
+        align-items: center;
+        justify-content: center;
     }
 
-    .navigation_down_catalog > p {
-        display: none;
+    .navigation_down_catalog > ul {
+        padding: 0;
     }
 
     .navigation_down_catalog > ul > li {
         width: 20px;
         height: 2px;
+    }
+
+    /*----------------------------------------------------------*/
+    .navigation_down_input-grup_size {
+        width: 203px;
+        height: 34px;
+        font-size: 10px;
+        line-height: 10px;
+    }
+
+    .navigation_down_input-grup > .click1 > button {
+        width: 34px;
+        height: 34px;
+        margin: 0;
+        padding: 0;
+    }
+
+    .navigation_down_input-grup > .click1 > button > img {
+        display: flex;
+        position: relative;
+        margin-left: 10px;
+    }
+
+    /*-----------------------------------------------------------*/
+    .navigation_up_time, .navigation_up_location, .navigation_down_border,
+    .navigation_down_user, .navigation_down_input-grup_text,
+    .navigation_down_catalog > p {
+        display: none;
+    }
+
+    /*------------------------main----------------------------------*/
+    .main {
+        width: 100%;
+        height: 320px;
+        flex-wrap: wrap;
+    }
+
+    /*-------------main_karusel-big----------------------------*/
+    .main_karusel-big {
+        margin-top: 10px;
+    }
+
+    .carousel-control-prev, .carousel-control-next {
+        display: none;
+    }
+
+    .carousel-indicators {
+        margin: 0;
+    }
+
+    .block-karusel2 {
+        height: 180px;
+        padding-left: 10px;
+        box-sizing: border-box;
+    }
+
+    .block-karusel2 > img {
+        width: 131px;
+        height: 111px;
+    }
+
+    .block-karusel2_text {
+        display: flex;
+        flex-direction: column;
+        row-gap: 8px;
+    }
+
+    .block-karusel2_text_first {
+        font-size: 16px;
+        line-height: 19px;
+        margin-bottom: 0;
+    }
+
+    .block-karusel2_text_second {
+        font-size: 10px;
+        line-height: 12px;
+        margin-bottom: 0;
+    }
+
+    .block-karusel2_text_thed {
+        font-size: 20px;
+        line-height: 23px;
+        margin-bottom: 0;
+    }
+
+    .block-karusel2_text_blok-prize {
+        flex-direction: column;
+        row-gap: 4px;
+        align-items: flex-start;
+    }
+
+    .block-karusel2_text_thed_twoo {
+        font-size: 14px;
+        line-height: 16px;
+        margin-bottom: 0;
+    }
+
+    .block-karusel2_text > button {
+        width: 124px;
+        height: 34px;
+    }
+
+    .block-karusel2_text > button > p {
+        font-size: 12px;
+        line-height: 14px;
+    }
+
+    .block-karusel2_text > button > img {
+        width: 11px;
+        height: 8px;
+    }
+
+    /*--------------------main-big_bloks-------------------------*/
+    .main-big_bloks {
+        flex-wrap: wrap;
+        column-gap: 10px;
+        width: 250px;
+        height: 145px;
+        margin-top: 10px;
+    }
+
+    .main-big_bloks_first {
+        width: 250px;
+        height: 145px;
+        padding: 15px;
+    }
+
+    .main-big_bloks_first_text {
+        font-size: 12px;
+        line-height: 14px;
+        margin-bottom: 5px;
+    }
+
+    .main-big_bloks_first_bloks > img {
+        width: 58px;
+        height: 54px;
+    }
+
+    .main-big_bloks_first_bloks_teksts_first {
+        font-size: 12px;
+        line-height: 18px;
+    }
+
+    .main-big_bloks_first_bloks_teksts_second {
+        font-size: 10px;
+        line-height: 12px;
+    }
+
+    .main-big_bloks_first_bloks_money_first {
+        font-size: 14px;
+        line-height: 16px;
+    }
+
+    .main-big_bloks_first_bloks_money_second {
+        font-size: 12px;
+        line-height: 14px;
+    }
+
+    .main-big_bloks_first_bloks_money > button {
+        width: 32px;
+        height: 32px;
+    }
+
+    .main-big_bloks_first_bloks_money > button > img {
+        width: 12px;
+        height: 9px;
+    }
+
+    /*--------------------------------------------------------*/
+    .main1_absolute, .main1_absolute1 {
+        display: none;
+    }
+
+    .main1 {
+        width: 100%;
+        column-gap: 10px;
+        margin-top: 35px;
+    }
+
+    .main1_block {
+        width: 250px;
+        height: 126px;
+        padding: 14px;
+        column-gap: 29px;
+    }
+
+    .main1_block > img {
+        width: 74px;
+        height: 97px;
+    }
+
+    .main1_block_text-and-button_text1 {
+        font-size: 14px;
+        line-height: 15px;
+    }
+
+    .main1_block_text-and-button_text2 {
+        font-size: 10px;
+        line-height: 14px;
+        width: 120px;
+    }
+
+    .main1_block_text-and-button > button {
+        width: 72px;
+        height: 24px;
+        font-size: 12px;
+        line-height: 14px;
+    }
+
+    /*-------------------------------------------------------*/
+    .buttons {
+        width: 100%;
+        margin-top: 20px;
+        padding-top: 0;
+    }
+
+    .buttons1 {
+        height: 36px;
+        width: 164px;
+        border: none;
+        font-size: 14px;
+        line-height: 16px;
+    }
+
+    .buttons2 {
+        height: 36px;
+        width: 82px;
+        font-size: 14px;
+        line-height: 16px;
+    }
+
+    .buttons3 {
+        height: 36px;
+        width: 156px;
+        font-size: 14px;
+        line-height: 16px;
+    }
+
+    /*--------------cards--------------------------------------------------*/
+    .card-sale {
+        width: 20px;
+        height: 10px;
+        font-size: 7px;
+        line-height: 14px;
+
+    }
+
+    .cards {
+        flex-wrap: wrap;
+        column-gap: 15px;
+        margin-top: 10px;
+    }
+
+    .cards_card {
+        width: 45%;
+    }
+
+    .cards_card > img {
+        width: 149px;
+        height: 127px;
+    }
+
+    .cards_card_star {
+        column-gap: 5px;
+    }
+
+    .cards_card_star > img {
+        width: 12px;
+        height: 12px;
+    }
+
+    .cards_card_star_first {
+        font-size: 10px;
+        line-height: 12px;
+    }
+
+    .cards_card_star_otzuv {
+        font-size: 10px;
+        line-height: 12px;
+    }
+
+    .cards_card_name {
+        font-size: 12px;
+        line-height: 17px;
+        width: 138px;
+    }
+
+    .cards_card_price_first {
+        font-size: 12px;
+        line-height: 14px;
+    }
+
+    .cards_card_price_second {
+        font-size: 12px;
+        line-height: 14px;
+    }
+
+    .cards_card_button > button {
+        width: 110px;
+        height: 35px;
+        font-size: 12px;
+        line-height: 14px;
+        border: none;
+    }
+
+    .cards_card_button > button > img {
+        width: 11px;
+        height: 8px;
+    }
+
+    .cards_card_button_img1 {
+        width: 17px;
+        height: 11px;
+    }
+
+    .cards_card_button_img2 {
+        display: none;
+    }
+
+    .button-card-twoo {
+        margin-top: 8px;
+    }
+
+    /*-------------------href------------------------------------*/
+    .href {
+        width: 100%;
+    }
+
+    .hreff {
+        width: 100%;
+    }
+
+    /*------------------button-bootom-----------------------------------------*/
+    .button-bootom {
+        margin-bottom: 0;
+    }
 
 
+    .button-bootom > button {
+        width: 160px;
+        height: 34px;
+        font-size: 12px;
+    }
+
+    /*-------------------nazva--------------------------------------*/
+    .nazva > p {
+        font-size: 16px;
+        margin-top: 50px;
+    }
+
+    /*--------------href-bottom-------------------------------------------*/
+    .href-bottom {
+        display: none;
+    }
+
+    /*----------------nuvs----------------------------------------*/
+    .nuvs {
+        width: 100%;
+        flex-wrap: wrap;
+    }
+
+    .nuvs-block1 {
+        width: 100%;
+
+    }
+
+    .nuvs-block1-data {
+        display: block;
+        text-align: center;
+        margin-bottom: 0;
+    }
+
+    .nuvs-block1_text_size {
+        text-align: justify;
+    }
+
+    .zagolovok {
+        margin-bottom: 0;
+    }
+
+    /*------------------footer----------------------------------------*/
+    .footer {
+        width: 100%;
+        flex-wrap: wrap;
+    }
+
+    .footer_info {
+        width: 100%;
+        flex-direction: column;
+        row-gap: 25px;
+
+    }
+
+    .footer_info > ul, .footer_info_information_text1, .footer_info_information_text2,
+    .footer_info_information_text3, .footer_info_information_text4,
+    .footer_info_information_text5, .footer_info_information_text6,
+    .footer_info_information {
+        font-size: 12px;
+        line-height: 14px;
+    }
+
+    .footer_info_catalog_h1, .footer_info_information_text1 {
+        font-size: 14px;
+        line-height: 16px;
+    }
+
+    .footer_info_catalog_h1_for-media {
+        margin-top: 25px;
+    }
+
+    /*----------footer_info_information-------------------------------------------*/
+    .footer_info_information_text6 {
+        margin-top: 0;
+    }
+
+    .footer_info_information > img {
+        width: 89px;
+        height: 35px;
+    }
+
+    /*------------footer_info_contactu---------------------------------------------*/
+    .footer_info_contactu {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .number-and-adres, .footer_info_contactu_form-obr-sv {
+        flex-direction: column;
+    }
+
+    .footer_info_contactu_podpiska {
+        font-size: 14px;
+        line-height: 16px;
+        width: 267px;
+        margin-bottom: 0;
+    }
+
+    .text_footer {
+        font-size: 12px;
+        line-height: 14px;
+    }
+
+    .footer_info_contactu_input {
+        margin-top: 0;
+    }
+
+    .footer_info_contactu_input > input {
+        width: 290px;
+        height: 34px;
+        font-size: 12px;
+        line-height: 14px;
+    }
+
+    .footer_info_contactu_input > button {
+        width: 104px;
+        height: 34px;
+        font-size: 12px;
+        line-height: 14px;
+    }
+
+    /*-------------------icons-----------------------------*/
+    .icons {
+        margin-bottom: 20px;
+        justify-content: flex-start;
+    }
+
+
+    /*-----------------footer_year-----------------------------------------*/
+    .footer_year {
+        display: none;
+    }
+
+    .footer-for-footer-media {
+        display: flex;
+        height: 44px;
+        align-items: center;
+        padding-left: 20px;
+        box-sizing: border-box;
+    }
+
+    /*-----------------------------------------*/
+    .footer-for-footer-media > p {
+        margin-bottom: 0;
+    }
+
+    .menu-fon-for-media {
+        display: flex;
+        width: 100%;
+        bottom: 0;
+        align-items: center;
+        justify-content: center;
+        box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+    }
+
+    .menu-fon-for-media_first {
+        flex-direction: column;
+        row-gap: 5px;
+        align-items: center;
+        justify-content: space-evenly;
+        margin-top: 15px;
+    }
+
+    .menu-fon-for-media_first > .img-shadow {
+        position: absolute;
+        width: 12px;
+        height: 12px;
+        top: 5px;
+        left: 122px;
+    }
+
+    .menu-fon-for-media_first > .img-shadow1 {
+        position: absolute;
+        width: 12px;
+        height: 12px;
+        top: 5px;
+        left: 220px;
+    }
+
+    /*----------------------heder_location_vspluvachka-------------------------------*/
+    .click:hover .heder_location_vspluvachka {
+        display: none;
+    }
+
+    .click1:hover .navigation_down_input-grup_vspluvachka-search {
+        display: none;
+    }
+
+    .click2:hover .navigation_up_text_vspluvachka-call-back {
+        display: none;
     }
 
 }

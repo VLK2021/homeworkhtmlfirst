@@ -18,12 +18,31 @@
 </head>
 
 <body>
-
 <div class="wrapper">
     <div class="heder ppading pwidth pflex">
         <div class="heder_left pflex">
             <div class="heder_location pflex">
-                <img src="image/location.png" class="heder_margin" alt="location">
+                <!---------------------------------------вспливаюче вікно-->
+                <div class="click">
+                    <img src="image/location.png" class="heder_margin" alt="location">
+                    <div class="heder_location_vspluvachka pflex">
+                        <div class="heder_location_vspluvachka_top pflex">
+                            <p>Выберите свой город</p>
+                            <img src="image/chech.png" alt="chech">
+                        </div>
+                        <input type="text" class="input-first" placeholder="Ваш город" aria-label="Username">
+                        <ul class="pflex">
+                            <li class="heder_location_vspluvachka_ul-li1">Москва</li>
+                            <li>Санкт-Петербург</li>
+                            <li>Краснодар</li>
+                            <li>Екатеринбург</li>
+                            <li>Ростов-на-Дону</li>
+                            <li>Самара</li>
+                        </ul>
+
+                    </div>
+                </div>
+                <!------------------------------------------------------------------------------------------->
                 <p class="heder_inform_text heder_size heder_margin">Ваш город: Москва</p>
                 <ul class="navbar-nav heder_location_shedow">
                     <li>
@@ -81,8 +100,6 @@
                         Интернет-магазин запчастей
                         для АКПП
                     </p>
-
-
                 </div>
             </div>
             <div class="navigation_up_time pflex">
@@ -98,6 +115,18 @@
                     Невский пр-т, д. 45
                 </p>
             </div>
+            <div class="navigation_up_text pflex navigation_up_text_shadov">
+                <p class="navigation_up_text_number">+7 383 291 92 86</p>
+                <p class="navigation_up_text_text">форма обратной связи</p>
+            </div>
+            <div class="navigation_up_w pflex navigation_up_text_shadov">
+                <div class="navigation_up_wathApp pflex">
+                    <img src="image/whatsapp.png" alt="whatsapp">
+                    <p class="navigation_second_up_wathApp_text">
+                        Напишите нам в WhatsApp
+                    </p>
+                </div>
+            </div>
             <div class="navigation_up_w pflex">
                 <div class="navigation_up_wathApp pflex">
                     <img src="image/whatsapp.png" alt="whatsapp">
@@ -108,7 +137,26 @@
             </div>
             <div class="navigation_up_text pflex">
                 <p class="navigation_up_text_number">+7 383 291 92 86</p>
-                <p class="navigation_up_text_text">форма обратной связи</p>
+                <div class="click2">
+                    <p class="navigation_up_text_text">форма обратной связи</p>
+                    <div class="navigation_up_text_vspluvachka-call-back pflex">
+                        <div class="navigation_up_text_vspluvachka-call-back_top pflex">
+                            <p>Заказать звонок</p>
+                            <img src="image/chech.png" alt="cherch">
+                        </div>
+                        <input type="text">
+                        <p class="absolute-name absolute-name-number">Ваше имя</p>
+                        <div class="navigation_up_text_vspluvachka-call-back_number pflex">
+                            <p class="absolute-number absolute-name-number">Номер телефона</p>
+                            <img src="image/prapor.png" alt="prapor">
+                            <img src="image/strilka-prapora.png" alt="strilka">
+                            <img src="image/hrefka-prapora.png" alt="hrefka">
+                            <img src="image/seven.png" alt="number">
+                            <img src="image/nine.png" alt="number">
+                        </div>
+                        <button>Заказать звонок</button>
+                    </div>
+                </div>
             </div>
         </div>
         <div class="navigation_down ppading  pflex">
@@ -123,7 +171,26 @@
             <div class="navigation_down_input-grup pflex">
                 <input class="navigation_down_input-grup_size"
                        placeholder="Поиск по наименованию или артикулу" aria-label="Username">
-                <button>Найти</button>
+                <!-----------------------------вспливаюче вікно------------------------------------->
+                <div class="click1">
+                    <button>
+                        <span class="navigation_down_input-grup_text">Найти</span>
+                        <img src="image/search1.png" alt="search">
+                    </button>
+                    <div class="navigation_down_input-grup_vspluvachka-search pflex">
+                        <p class="navigation_down_input-grup_vspluvachka-search_text-zagolovki">Найденные
+                            трансмиссии:</p>
+                        <p class="navigation_down_input-grup_vspluvachka-search_text-tovar fon-search pflex">6eT40</p>
+                        <p class="navigation_down_input-grup_vspluvachka-search_text-tovar pflex">6eT40</p>
+                        <p class="navigation_down_input-grup_vspluvachka-search_text-tovar pflex">6eT40</p>
+                        <p class="navigation_down_input-grup_vspluvachka-search_text-zagolovki">Найденные товары:</p>
+                        <p class="navigation_down_input-grup_vspluvachka-search_text-tovar pflex">Насос - Артикул /
+                            43233</p>
+                        <p class="navigation_down_input-grup_vspluvachka-search_text-tovar pflex">Соленоид - Артикул /
+                            4493934-22</p>
+                    </div>
+                </div>
+                <!--------------------------------------------------------------------->
             </div>
             <div class="navigation_down_user pflex">
                 <img src="image/user.png" alt="user">
@@ -154,13 +221,55 @@
                 </ol>
                 <div class="carousel-inner">
                     <div class="carousel-item active">
-                        <img src="image/BigKaruselFoto1.png" class="d-block w-100" alt="Slide 1">
+                        <div class="block-karusel2 w-100 pflex">
+                            <div class="block-karusel2_text">
+                                <p class="block-karusel2_text_first">Сцепление в сборе</p>
+                                <p class="block-karusel2_text_second">0AMCLUTCH</p>
+                                <div class="block-karusel2_text_blok-prize pflex">
+                                    <p class="block-karusel2_text_thed">14 499,99 ₽</p>
+                                    <p class="block-karusel2_text_thed_twoo">18 550,99 ₽ </p>
+                                </div>
+                                <button class="pflex">
+                                    <img src="image/cart-karusel-b.png" alt="foto">
+                                    <p>В корзину</p>
+                                </button>
+                            </div>
+                            <img src="image/foto-karusel.png" alt="foto">
+                        </div>
                     </div>
                     <div class="carousel-item">
-                        <img src="image/BigKaruselFoto1.png" class="d-block w-100" alt="Slide 2">
+                        <div class="block-karusel2 w-100 pflex">
+                            <div class="block-karusel2_text">
+                                <p class="block-karusel2_text_first">Сцепление в сборе</p>
+                                <p class="block-karusel2_text_second">0AMCLUTCH</p>
+                                <div class="block-karusel2_text_blok-prize pflex">
+                                    <p class="block-karusel2_text_thed">14 499,99 ₽</p>
+                                    <p class="block-karusel2_text_thed_twoo">18 550,99 ₽ </p>
+                                </div>
+                                <button class="pflex">
+                                    <img src="image/cart-karusel-b.png" alt="foto">
+                                    <p>В корзину</p>
+                                </button>
+                            </div>
+                            <img src="image/foto-karusel.png" alt="foto">
+                        </div>
                     </div>
                     <div class="carousel-item">
-                        <img src="image/BigKaruselFoto1.png" class="d-block w-100" alt="Slide 3">
+                        <div class="block-karusel2 w-100 pflex">
+                            <div class="block-karusel2_text">
+                                <p class="block-karusel2_text_first">Сцепление в сборе</p>
+                                <p class="block-karusel2_text_second">0AMCLUTCH</p>
+                                <div class="block-karusel2_text_blok-prize pflex">
+                                    <p class="block-karusel2_text_thed">14 499,99 ₽</p>
+                                    <p class="block-karusel2_text_thed_twoo">18 550,99 ₽ </p>
+                                </div>
+                                <button class="pflex">
+                                    <img src="image/cart-karusel-b.png" alt="foto">
+                                    <p>В корзину</p>
+                                </button>
+                            </div>
+                            <img src="image/foto-karusel.png" alt="foto">
+                        </div>
                     </div>
                 </div>
                 <a class="carousel-control-prev" href="#carouselWithIndicators" role="button" data-bs-slide="prev">
@@ -271,6 +380,7 @@
                 <p class="cards_card_price_first">ЦЕНА</p>
                 <p class="cards_card_price_second">по запросу</p>
             </div>
+
             <div class="cards_card_button pflex">
                 <button class="pflex">
                     <img src="image/cart1.png" alt="cart">
@@ -279,8 +389,12 @@
                 <img src="image/hart.png" class="cards_card_button_img1" alt="heat">
                 <img src="image/g147.png" class="cards_card_button_img2" alt="foto">
             </div>
+
         </div>
         <div class="cards_card">
+            <div class="card-sale pflex">
+                <p>-40%</p>
+            </div>
             <img src="image/avt-zap1.png" alt="motor">
             <div class="cards_card_star pflex">
                 <img src="image/Star.png" alt="star">
@@ -293,7 +407,7 @@
                 <p class="main-big_bloks_first_bloks_money_second">5 430₽</p>
             </div>
             <div class="cards_card_button pflex">
-                <button class="pflex">
+                <button class="pflex button-card-twoo">
                     <img src="image/cart1.png" alt="cart">
                     В корзину
                 </button>
@@ -370,6 +484,9 @@
             </div>
         </div>
         <div class="cards_card">
+            <div class="card-sale pflex">
+                <p>-40%</p>
+            </div>
             <img src="image/avt-zap1.png" alt="motor">
             <div class="cards_card_star pflex">
                 <img src="image/Star.png" alt="star">
@@ -382,7 +499,7 @@
                 <p class="main-big_bloks_first_bloks_money_second">5 430₽</p>
             </div>
             <div class="cards_card_button pflex">
-                <button class="pflex">
+                <button class="pflex button-card-twoo">
                     <img src="image/cart1.png" alt="cart">
                     В корзину
                 </button>
@@ -447,8 +564,9 @@
     </div>
     <div class="nuvs pflex ppading pwidth">
         <div class="nuvs-block1 pflex">
+            <div class="nuvs-block1-data">3 ноября</div>
             <p class="zagolovok"><a href="#">Изменения на сайте</a></p>
-            <p class="nuvs-block1_text">
+            <p class="nuvs-block1_text nuvs-block1_text_size">
                 Недавно на сайте мы ввели
                 очередную порцию изменений,
                 которые, как нам кажется, должны
@@ -459,6 +577,7 @@
             </p>
         </div>
         <div class="nuvs-block1 pflex">
+            <div class="nuvs-block1-data">2 ноября</div>
             <p class="zagolovok nuvs-block1_block2"><a href="#">
                 Вышла новая версия для
                 мобильных приложений
@@ -471,6 +590,7 @@
             </p>
         </div>
         <div class="nuvs-block1 pflex">
+            <div class="nuvs-block1-data">1 ноября</div>
             <p class="zagolovok nuvs-block1_block3"><a href="#">
                 Очередная порция обновлений для
                 мобильных приложений
@@ -485,6 +605,7 @@
             </p>
         </div>
         <div class="nuvs-block1 pflex">
+            <div class="nuvs-block1-data">31 октября</div>
             <p class="zagolovok nuvs-block1_block4"><a href="#">
                 Интерфейс заказов для покупателей
                 стал более функциональным
@@ -501,7 +622,7 @@
     <div class="footer pwidth ppading">
         <div class="footer_info pflex">
             <ul class="footer_info_catalog pflex">
-                <li class="footer_info_catalog_h1">КАТАЛОГ</li>
+                <li class="footer_info_catalog_h1 footer_info_catalog_h1_for-media">КАТАЛОГ</li>
                 <li class="footer_info_catalog_li2">Каталог запчастей</li>
                 <li>Масла</li>
                 <li>Фильтра</li>
@@ -536,16 +657,15 @@
                 <p class="footer_info_information_text6">Мы принимаем</p>
                 <img src="image/mastpng.png" alt="vfstercard">
             </div>
-
             <div class="footer_info_contactu">
                 <div class="number-and-adres pflex">
                     <div class="number-and-adres_number">
-                        <p class="footer_info_catalog_h1">КОНТАКТЫ</p>
+                        <p class="footer_info_catalog_h1 footer_info_catalog_h1_for-media">КОНТАКТЫ</p>
                         <p class="text_footer">+7 383 291 92 86</p>
                         <p class="text_footer">info@avt-zap.ru</p>
                     </div>
                     <div class="number-and-adres_adres">
-                        <p class="footer_info_catalog_h1">АДРЕС</p>
+                        <p class="footer_info_catalog_h1 footer_info_catalog_h1_for-media">АДРЕС</p>
                         <p class="text_footer size_text_footer">
                             г. Новосибирск,
                             ул. Планировочная, 5, офис 105
@@ -572,13 +692,33 @@
                 </div>
             </div>
         </div>
-
         <p class="footer_year">2017 © ООО «АВТ-ЗАП» - запчасти для акпп</p>
-
+    </div>
+    <div class="footer-for-footer-media">
+        <p>2017 © ООО «АВТ-ЗАП» - запчасти для акпп</p>
+    </div>
+    <div class="menu-fon-for-media pflex">
+        <div class="menu-fon-for-media_first pflex">
+            <img src="image/home.png" alt="home">
+            <p>Главная</p>
+        </div>
+        <div class="menu-fon-for-media_first pflex">
+            <img src="image/three.png" class="img-shadow" alt="number">
+            <img src="image/heart.png" alt="home">
+            <p>Избранное</p>
+        </div>
+        <div class="menu-fon-for-media_first pflex">
+            <img src="image/twoo.png" class="img-shadow1" alt="number">
+            <img src="image/cart.png" alt="home">
+            <p>Корзина</p>
+        </div>
+        <div class="menu-fon-for-media_first pflex">
+            <img src="image/user.png" alt="home">
+            <p>Профиль</p>
+        </div>
 
     </div>
 </div>
-
 
 <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js"
         integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB"
@@ -586,6 +726,5 @@
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js"
         integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13"
         crossorigin="anonymous"></script>
-
 </body>
 </html>
